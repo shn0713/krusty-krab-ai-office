@@ -1,0 +1,14 @@
+node_modules/
+runtime/
+.env
+.env.*
+!.env.example
+*.log
+*.mp4
+*.webm
+*.wav
+*.m4a
+*.pem
+*.key
+.DS_Store
+Thumbs.db

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>蟹堡王 · AI办公餐厅</title>
+  <meta name="description" content="把任务变成一份热腾腾的餐品。克劳德 接单，大肥鱼制作，GPT照看餐厅。">
+  <link rel="icon" href="assets/burger.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="character-controls.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="蟹堡王首页"><img src="assets/burger.svg" alt="" width="42" height="42"><span>蟹堡王<span class="brand-dot">·</span><span class="brand-sub">AI办公餐厅</span><small>把想法交给我们，把好结果端给你。</small></span></a>
+    <div class="header-actions"><span class="connection" id="connection"><i></i>正在开门</span><button class="balance-pill" id="balanceButton" title="查看并刷新真实余额"><span class="coin-icon">¥</span><span id="balanceValue">余额查询中</span></button><button class="icon-button" id="settingsButton" aria-label="餐厅设置" title="餐厅设置"><svg viewBox="0 0 24 24"><path d="m9 3 1-1h4l1 3 3 2 3-.3 1 4-2 2-.7 3 1.7 2-3 3-3-1-3 .6L11 23l-4-1-.5-3L4 17l-3-.4v-4l3-1 1-3-1-3 3-2 2 2 3-.6"/><circle cx="12" cy="12" r="3"/></svg></button></div>
+  </header>
+
+  <main class="workspace">
+    <section class="theater" aria-label="餐厅场景与任务输入">
+      <div class="scene-heading"><div><span class="eyebrow">BIKINI BOTTOM / WORK & DINE</span><h1>今天，也要好好开工。</h1></div><div class="scene-actions"><button id="residentsButton" class="button secondary residents-button">居民图鉴 <span id="residentButtonCount">36</span></button><button id="demoButton" class="button secondary"><span>▷</span> 演示一单 <span class="free-label">不调用API</span></button></div></div>
+      <div class="stage-frame">
+        <div class="stage" id="stage" aria-label="正门对着克劳德收银台，办公室与厨房沿后墙并排">
+          <img class="scenery" src="assets/restaurant.png" alt="宽阔的蟹堡王：中央正门、两侧餐桌、后排办公室与厨房" draggable="false">
+          <div class="stage-status"><span class="live-dot"></span><span id="stageStatus">餐厅营业中</span></div>
+          <span class="camera-badge"><svg viewBox="0 0 24 24"><path d="M3 7h4l2-3h6l2 3h4v13H3Z"/><circle cx="12" cy="13" r="4"/></svg>斜上方俯视</span>
+          <span class="walk-safety-badge" title="桌椅、墙体、门扇和船形前台已设置碰撞边界">⌁ 自动绕行</span>
+          <div class="office-sign"><span>老板办公室</span><small id="officeBalance">数钱中…</small></div>
+          <div class="steam" id="steam" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="actor-layer" id="actorLayer"></div>
+          <div class="scenery desk-occlusion" aria-hidden="true"></div>
+          <div class="floor-shine" id="floorShine" aria-hidden="true">✧<span>✦</span>✧</div>
+          <div class="handoff-food" id="handoffFood" aria-hidden="true"><img src="assets/tray.svg" alt=""></div>
+          <div class="scene-tooltip" id="sceneHint">左键聊天 · 右键选择全部动作</div>
+          <div class="door-glow" id="doorGlow" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="service-strip"><div class="flow" id="flow" aria-label="任务进度"></div><span class="service-stat" id="servedCount">今日已上菜 0 单</span></div>
+      <form class="composer" id="taskForm">
+        <div class="context-pill" id="contextPill" hidden><span></span><button type="button" aria-label="取消追问">×</button></div>
+        <div class="composer-input"><span class="input-mark"><svg viewBox="0 0 24 24"><path d="M4 8c0-6 16-6 16 0v7l-3-2-3 2-2-2-3 2-2-2-3 2Z"/><circle cx="9" cy="8" r="1"/><circle cx="15" cy="8" r="1"/><path d="m10 11 2 1 2-1"/></svg></span><textarea id="taskInput" rows="1" maxlength="16000" placeholder="输入任务，交给蟹堡王…" aria-label="你的任务"></textarea><button type="submit" id="submitButton" class="button primary"><img src="assets/burger.svg" alt="">下单 <span>↗</span></button></div>
+        <div class="composer-foot"><span><kbd>Enter</kbd> 下单 · <kbd>Shift + Enter</kbd> 换行</span><span id="composerTip">克劳德 接单，大肥鱼制作，GPT照看餐厅</span></div>
+      </form>
+    </section>
+
+    <aside class="inspector" aria-label="任务和餐厅动态">
+      <div class="inspector-head"><h2>餐厅看板</h2><span class="open-tag">OPEN</span></div>
+      <div class="panel-tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="current">这一单</button><button role="tab" aria-selected="false" data-tab="history">任务记录 <span id="historyCount">0</span></button></div>
+      <div class="panel-scroll" id="panelScroll">
+        <section id="currentPanel">
+          <div class="order-card" id="orderCard"></div>
+          <div class="result-card" id="resultCard" hidden></div>
+          <div class="queue-card" id="queueCard" hidden></div>
+          <section class="team-section"><div class="section-line"><h3>今日值班</h3><span>三位伙伴 · 一起开工</span></div><div id="teamRoster"></div></section>
+          <section class="activity-section"><div class="section-line"><h3>餐厅动态</h3><span id="activityTime">此刻</span></div><div id="activityFeed" aria-live="polite"></div></section>
+        </section>
+        <section id="historyPanel" hidden><div id="historyList"></div></section>
+      </div>
+      <footer class="inspector-footer"><span class="tiny-anchor">⚓</span> 好任务，值得一份好手艺。<button id="aboutButton" aria-label="查看关于与素材来源">关于</button></footer>
+    </aside>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+
+  <dialog id="residentsDialog" class="modal residents-dialog"><div class="modal-head"><div><span class="eyebrow">OUR ANIME NEIGHBORS</span><h2>居民图鉴 <span class="gallery-count"><span id="residentCount">36</span> 位</span></h2><p class="gallery-subtitle">不同角色，随机来访。也可以邀请一位熟悉的朋友。</p></div><button data-close class="icon-button" aria-label="关闭居民图鉴">×</button></div><div class="resident-gallery-scroll" id="residentGalleryScroll"><div class="resident-gallery" id="residentList"></div></div><footer class="gallery-footer"><span>原始 Q 版动作图集 · 待机 / 行走 / 等候</span><a href="https://github.com/TiantianTitan/codex-anime-pets" target="_blank" rel="noopener noreferrer">GitHub 素材来源 ↗</a><small>非官方同人素材，角色权利归各自权利人；仓库公开下载不等于商用授权。</small></footer></dialog>
+
+  <dialog id="settingsDialog" class="modal"><div class="modal-head"><div><span class="eyebrow">RESTAURANT SETTINGS</span><h2>餐厅设置</h2></div><button data-close class="icon-button" aria-label="关闭设置">×</button></div><div class="modal-body"><div class="setting-row"><div><strong>动作速度</strong><small>调整走路与交餐节奏，真实回复仍等待接口完成。</small></div><select id="speedSelect" aria-label="动作速度"><option value="1">悠闲 · 1×</option><option value="1.6">轻快 · 1.6×</option><option value="2.5">加速 · 2.5×</option></select></div><div class="setting-row"><div><strong>多久没任务，老板会来看看</strong><small>空闲时随机巡视门口，或安排 克劳德 清洁。</small></div><select id="idleSelect" aria-label="老板空闲剧情等待时间"><option value="30">30 秒</option><option value="60">1 分钟</option><option value="120">2 分钟</option></select></div><div class="setting-row"><div><strong>员工随机动作</strong><small>吃米饭、读报抱怨、数钱卖萌；GPT 安排克劳德，克劳德安排大肥鱼。</small></div><label class="switch"><input id="idleToggle" type="checkbox" checked><span></span><span class="sr-only">启用随机动作</span></label></div><div class="setting-demo"><span>先看看空闲剧情</span><div><button id="patrolDemo" class="button secondary">老板巡视门口</button><button id="cleanDemo" class="button secondary">克劳德 清洁地板</button></div></div><div class="connection-note"><strong id="settingsConnection">连接检查中</strong><p>三个角色使用同一 DeepSeek 接口，分别负责接单、执行和经营。密钥只由本地服务读取。随机动作和演示不调用 API。</p><button id="refreshConnection" class="text-button">重新检查连接和余额 ↻</button></div></div></dialog>
+  <dialog id="chatDialog" class="modal chat-modal"><div class="modal-head"><div class="chat-title"><img id="chatAvatar" alt=""><div><span class="eyebrow">STAFF ROOM</span><h2 id="chatName"></h2><small id="chatRole"></small></div></div><button data-close class="icon-button" aria-label="关闭员工对话">×</button></div><div class="chat-messages" id="chatMessages" aria-live="polite"></div><form id="chatForm" class="chat-form"><input id="chatInput" autocomplete="off" maxlength="5000" placeholder="和 TA 说点什么…" aria-label="给员工的消息"><button class="button primary" type="submit">发送 ↗</button></form></dialog>
+  <dialog id="aboutDialog" class="modal"><div class="modal-head"><h2>关于这家餐厅</h2><button data-close class="icon-button" aria-label="关闭关于">×</button></div><div class="modal-body prose"><p>这是你和三位伙伴一起开的 AI 办公餐厅。用户的任务是订单，模型生成的结果是餐品。</p><p>克劳德、大肥鱼、GPT是不同分工的逻辑智能体，底层均连接 DeepSeek，并非同时调用三个品牌的模型。接单与执行各进行一次真实调用；老板可通过员工对话使用同一接口。费用以账户真实余额为准。</p><p>演示一单使用本地预设示例，会明确标记为演示。真实调用失败会保留失败订单，可重试，不会用示例冒充结果。</p><p>三位员工来自 <a href="https://github.com/lokicorvus/crosspet" target="_blank" rel="noopener noreferrer">CrossPet</a>，源素材使用 CC BY-NC-SA 4.0，完整署名和许可见成品文件夹中的素材说明。36 位 Q 版居民来自 <a href="https://github.com/TiantianTitan/codex-anime-pets" target="_blank" rel="noopener noreferrer">TiantianTitan / Codex Anime Pets</a>，是非官方同人动画，角色权利仍归各自权利人，不能据此视为已获商用授权。背景通过内置 imagegen 绘制，道具和界面图标由本项目绘制。</p><p class="subtle">订单记录保存在当前浏览器。页面关闭时，尚未完成的订单会标为已中断；不会自动再次调用接口。</p></div></dialog>
+  <script src="vendor/matter.js"></script>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

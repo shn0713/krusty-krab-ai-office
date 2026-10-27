@@ -1,0 +1,1283 @@
+{
+  "version": 2,
+  "characters": {
+    "whale": {
+      "name": "大肥鱼",
+      "count": 61,
+      "actions": [
+        {
+          "id": "annoyed",
+          "label": "有点不高兴",
+          "category": "表情",
+          "src": "assets/whale/annoyed.webp",
+          "prop": ""
+        },
+        {
+          "id": "asking",
+          "label": "探头询问",
+          "category": "工作",
+          "src": "assets/whale/asking.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_left",
+          "label": "向左开工",
+          "category": "工作",
+          "src": "assets/whale/busy_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_right",
+          "label": "向右开工",
+          "category": "工作",
+          "src": "assets/whale/busy_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "bye",
+          "label": "挥手告别",
+          "category": "问候",
+          "src": "assets/whale/bye.webp",
+          "prop": ""
+        },
+        {
+          "id": "coaxed",
+          "label": "被哄好啦",
+          "category": "表情",
+          "src": "assets/whale/coaxed.webp",
+          "prop": ""
+        },
+        {
+          "id": "compact",
+          "label": "整理仪容",
+          "category": "日常",
+          "src": "assets/whale/compact.webp",
+          "prop": ""
+        },
+        {
+          "id": "deepthink",
+          "label": "深度思考",
+          "category": "工作",
+          "src": "assets/whale/deepthink.webp",
+          "prop": ""
+        },
+        {
+          "id": "delegating",
+          "label": "交代工作",
+          "category": "工作",
+          "src": "assets/whale/delegating.webp",
+          "prop": ""
+        },
+        {
+          "id": "dizzy",
+          "label": "晕乎乎",
+          "category": "表情",
+          "src": "assets/whale/dizzy.webp",
+          "prop": ""
+        },
+        {
+          "id": "drawing",
+          "label": "画画涂鸦",
+          "category": "日常",
+          "src": "assets/whale/drawing.webp",
+          "prop": ""
+        },
+        {
+          "id": "eat",
+          "label": "阿姆阿姆吃米饭",
+          "category": "日常",
+          "src": "assets/whale/eat.webp",
+          "prop": "rice"
+        },
+        {
+          "id": "edge_left",
+          "label": "左侧贴边",
+          "category": "更多",
+          "src": "assets/whale/edge_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_left_peek",
+          "label": "左侧探头",
+          "category": "更多",
+          "src": "assets/whale/edge_left_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right",
+          "label": "右侧贴边",
+          "category": "更多",
+          "src": "assets/whale/edge_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right_peek",
+          "label": "右侧探头",
+          "category": "更多",
+          "src": "assets/whale/edge_right_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "feast",
+          "label": "大吃一顿",
+          "category": "日常",
+          "src": "assets/whale/feast.webp",
+          "prop": "rice"
+        },
+        {
+          "id": "fest_christmas",
+          "label": "圣诞节",
+          "category": "节日",
+          "src": "assets/whale/fest_christmas.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_dragonboat",
+          "label": "端午节",
+          "category": "节日",
+          "src": "assets/whale/fest_dragonboat.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_halloween",
+          "label": "万圣节",
+          "category": "节日",
+          "src": "assets/whale/fest_halloween.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_lantern",
+          "label": "元宵节",
+          "category": "节日",
+          "src": "assets/whale/fest_lantern.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_midautumn",
+          "label": "中秋节",
+          "category": "节日",
+          "src": "assets/whale/fest_midautumn.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_national",
+          "label": "国庆节",
+          "category": "节日",
+          "src": "assets/whale/fest_national.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_newyear",
+          "label": "新年快乐",
+          "category": "节日",
+          "src": "assets/whale/fest_newyear.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_spring",
+          "label": "春节拜年",
+          "category": "节日",
+          "src": "assets/whale/fest_spring.webp",
+          "prop": ""
+        },
+        {
+          "id": "forgiven",
+          "label": "得到原谅",
+          "category": "表情",
+          "src": "assets/whale/forgiven.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_afternoon",
+          "label": "下午好",
+          "category": "问候",
+          "src": "assets/whale/greet_afternoon.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_dawn",
+          "label": "清晨问候",
+          "category": "问候",
+          "src": "assets/whale/greet_dawn.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_evening",
+          "label": "傍晚问候",
+          "category": "问候",
+          "src": "assets/whale/greet_evening.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_morning",
+          "label": "早上好",
+          "category": "问候",
+          "src": "assets/whale/greet_morning.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_night",
+          "label": "晚安问候",
+          "category": "问候",
+          "src": "assets/whale/greet_night.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_noon",
+          "label": "中午好",
+          "category": "问候",
+          "src": "assets/whale/greet_noon.webp",
+          "prop": ""
+        },
+        {
+          "id": "happy",
+          "label": "开心一下",
+          "category": "表情",
+          "src": "assets/whale/happy.webp",
+          "prop": ""
+        },
+        {
+          "id": "hum",
+          "label": "哼首小曲",
+          "category": "日常",
+          "src": "assets/whale/hum.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-2",
+          "label": "换个站姿",
+          "category": "日常",
+          "src": "assets/whale/idle-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-3",
+          "label": "歪头等候",
+          "category": "日常",
+          "src": "assets/whale/idle-3.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-blink",
+          "label": "眨眨眼",
+          "category": "日常",
+          "src": "assets/whale/idle-blink.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle",
+          "label": "乖乖待机",
+          "category": "日常",
+          "src": "assets/whale/idle.webp",
+          "prop": ""
+        },
+        {
+          "id": "listening",
+          "label": "乖乖听讲",
+          "category": "工作",
+          "src": "assets/whale/listening.webp",
+          "prop": ""
+        },
+        {
+          "id": "oops",
+          "label": "哎呀出错了",
+          "category": "表情",
+          "src": "assets/whale/oops.webp",
+          "prop": ""
+        },
+        {
+          "id": "pat",
+          "label": "摸摸头",
+          "category": "日常",
+          "src": "assets/whale/pat.webp",
+          "prop": ""
+        },
+        {
+          "id": "pout",
+          "label": "嘟嘟嘴",
+          "category": "表情",
+          "src": "assets/whale/pout.webp",
+          "prop": ""
+        },
+        {
+          "id": "proud",
+          "label": "小小得意",
+          "category": "表情",
+          "src": "assets/whale/proud.webp",
+          "prop": ""
+        },
+        {
+          "id": "puffed",
+          "label": "鼓起脸颊",
+          "category": "表情",
+          "src": "assets/whale/puffed.webp",
+          "prop": ""
+        },
+        {
+          "id": "reading",
+          "label": "认真看书",
+          "category": "日常",
+          "src": "assets/whale/reading.webp",
+          "prop": ""
+        },
+        {
+          "id": "redhot",
+          "label": "急得红温",
+          "category": "表情",
+          "src": "assets/whale/redhot.webp",
+          "prop": ""
+        },
+        {
+          "id": "running",
+          "label": "跑动热身",
+          "category": "日常",
+          "src": "assets/whale/running.webp",
+          "prop": ""
+        },
+        {
+          "id": "searching",
+          "label": "查找资料",
+          "category": "工作",
+          "src": "assets/whale/searching.webp",
+          "prop": ""
+        },
+        {
+          "id": "slack",
+          "label": "偷偷摸鱼",
+          "category": "日常",
+          "src": "assets/whale/slack.webp",
+          "prop": ""
+        },
+        {
+          "id": "sleeping",
+          "label": "打个小盹",
+          "category": "日常",
+          "src": "assets/whale/sleeping.webp",
+          "prop": ""
+        },
+        {
+          "id": "stretch",
+          "label": "伸个懒腰",
+          "category": "日常",
+          "src": "assets/whale/stretch.webp",
+          "prop": ""
+        },
+        {
+          "id": "sulk",
+          "label": "闹点小别扭",
+          "category": "表情",
+          "src": "assets/whale/sulk.webp",
+          "prop": ""
+        },
+        {
+          "id": "surprised",
+          "label": "吓了一小跳",
+          "category": "表情",
+          "src": "assets/whale/surprised.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_left",
+          "label": "忙不过来·向左",
+          "category": "工作",
+          "src": "assets/whale/swamped_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_right",
+          "label": "忙不过来·向右",
+          "category": "工作",
+          "src": "assets/whale/swamped_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "swim",
+          "label": "游泳姿势",
+          "category": "日常",
+          "src": "assets/whale/swim.webp",
+          "prop": ""
+        },
+        {
+          "id": "thinking",
+          "label": "认真思考",
+          "category": "工作",
+          "src": "assets/whale/thinking.webp",
+          "prop": ""
+        },
+        {
+          "id": "tired",
+          "label": "累累的",
+          "category": "表情",
+          "src": "assets/whale/tired.webp",
+          "prop": ""
+        },
+        {
+          "id": "update",
+          "label": "更新提醒",
+          "category": "更多",
+          "src": "assets/whale/update.webp",
+          "prop": ""
+        },
+        {
+          "id": "writing",
+          "label": "写写画画",
+          "category": "工作",
+          "src": "assets/whale/writing.webp",
+          "prop": ""
+        },
+        {
+          "id": "yawn",
+          "label": "打个哈欠",
+          "category": "日常",
+          "src": "assets/whale/yawn.webp",
+          "prop": ""
+        }
+      ]
+    },
+    "dragon": {
+      "name": "GPT",
+      "count": 62,
+      "actions": [
+        {
+          "id": "annoyed",
+          "label": "有点不高兴",
+          "category": "表情",
+          "src": "assets/dragon/annoyed.webp",
+          "prop": ""
+        },
+        {
+          "id": "asking",
+          "label": "探头询问",
+          "category": "工作",
+          "src": "assets/dragon/asking.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_left",
+          "label": "向左开工",
+          "category": "工作",
+          "src": "assets/dragon/busy_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_right",
+          "label": "向右开工",
+          "category": "工作",
+          "src": "assets/dragon/busy_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "bye",
+          "label": "挥手告别",
+          "category": "问候",
+          "src": "assets/dragon/bye.webp",
+          "prop": ""
+        },
+        {
+          "id": "coaxed-2",
+          "label": "再次哄好",
+          "category": "表情",
+          "src": "assets/dragon/coaxed-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "coaxed",
+          "label": "被哄好啦",
+          "category": "表情",
+          "src": "assets/dragon/coaxed.webp",
+          "prop": ""
+        },
+        {
+          "id": "compact",
+          "label": "整理仪容",
+          "category": "日常",
+          "src": "assets/dragon/compact.webp",
+          "prop": ""
+        },
+        {
+          "id": "delegating",
+          "label": "交代工作",
+          "category": "工作",
+          "src": "assets/dragon/delegating.webp",
+          "prop": ""
+        },
+        {
+          "id": "dizzy",
+          "label": "晕乎乎",
+          "category": "表情",
+          "src": "assets/dragon/dizzy.webp",
+          "prop": ""
+        },
+        {
+          "id": "drawing",
+          "label": "画画涂鸦",
+          "category": "日常",
+          "src": "assets/dragon/drawing.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_left",
+          "label": "左侧贴边",
+          "category": "更多",
+          "src": "assets/dragon/edge_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_left_peek",
+          "label": "左侧探头",
+          "category": "更多",
+          "src": "assets/dragon/edge_left_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right",
+          "label": "右侧贴边",
+          "category": "更多",
+          "src": "assets/dragon/edge_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right_peek",
+          "label": "右侧探头",
+          "category": "更多",
+          "src": "assets/dragon/edge_right_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_christmas",
+          "label": "圣诞节",
+          "category": "节日",
+          "src": "assets/dragon/fest_christmas.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_dragonboat",
+          "label": "端午节",
+          "category": "节日",
+          "src": "assets/dragon/fest_dragonboat.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_halloween",
+          "label": "万圣节",
+          "category": "节日",
+          "src": "assets/dragon/fest_halloween.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_lantern",
+          "label": "元宵节",
+          "category": "节日",
+          "src": "assets/dragon/fest_lantern.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_midautumn",
+          "label": "中秋节",
+          "category": "节日",
+          "src": "assets/dragon/fest_midautumn.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_national",
+          "label": "国庆节",
+          "category": "节日",
+          "src": "assets/dragon/fest_national.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_newyear",
+          "label": "新年快乐",
+          "category": "节日",
+          "src": "assets/dragon/fest_newyear.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_spring",
+          "label": "春节拜年",
+          "category": "节日",
+          "src": "assets/dragon/fest_spring.webp",
+          "prop": ""
+        },
+        {
+          "id": "forgiven",
+          "label": "得到原谅",
+          "category": "表情",
+          "src": "assets/dragon/forgiven.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_afternoon",
+          "label": "下午好",
+          "category": "问候",
+          "src": "assets/dragon/greet_afternoon.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_dawn",
+          "label": "清晨问候",
+          "category": "问候",
+          "src": "assets/dragon/greet_dawn.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_evening",
+          "label": "傍晚问候",
+          "category": "问候",
+          "src": "assets/dragon/greet_evening.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_morning",
+          "label": "早上好",
+          "category": "问候",
+          "src": "assets/dragon/greet_morning.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_night",
+          "label": "晚安问候",
+          "category": "问候",
+          "src": "assets/dragon/greet_night.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_noon",
+          "label": "中午好",
+          "category": "问候",
+          "src": "assets/dragon/greet_noon.webp",
+          "prop": ""
+        },
+        {
+          "id": "happy",
+          "label": "开心一下",
+          "category": "表情",
+          "src": "assets/dragon/happy.webp",
+          "prop": ""
+        },
+        {
+          "id": "hum",
+          "label": "哼首小曲",
+          "category": "日常",
+          "src": "assets/dragon/hum.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-2",
+          "label": "换个站姿",
+          "category": "日常",
+          "src": "assets/dragon/idle-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-3",
+          "label": "歪头等候",
+          "category": "日常",
+          "src": "assets/dragon/idle-3.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-blink",
+          "label": "眨眨眼",
+          "category": "日常",
+          "src": "assets/dragon/idle-blink.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle",
+          "label": "乖乖待机",
+          "category": "日常",
+          "src": "assets/dragon/idle.webp",
+          "prop": "coins"
+        },
+        {
+          "id": "listening",
+          "label": "乖乖听讲",
+          "category": "工作",
+          "src": "assets/dragon/listening.webp",
+          "prop": ""
+        },
+        {
+          "id": "oops",
+          "label": "哎呀出错了",
+          "category": "表情",
+          "src": "assets/dragon/oops.webp",
+          "prop": ""
+        },
+        {
+          "id": "pat",
+          "label": "摸摸头",
+          "category": "日常",
+          "src": "assets/dragon/pat.webp",
+          "prop": ""
+        },
+        {
+          "id": "proud",
+          "label": "小小得意",
+          "category": "表情",
+          "src": "assets/dragon/proud.webp",
+          "prop": "coins"
+        },
+        {
+          "id": "puffed",
+          "label": "鼓起脸颊",
+          "category": "表情",
+          "src": "assets/dragon/puffed.webp",
+          "prop": ""
+        },
+        {
+          "id": "reading",
+          "label": "认真看书",
+          "category": "日常",
+          "src": "assets/dragon/reading.webp",
+          "prop": ""
+        },
+        {
+          "id": "redhot",
+          "label": "急得红温",
+          "category": "表情",
+          "src": "assets/dragon/redhot.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset",
+          "label": "额度重置庆祝",
+          "category": "更多",
+          "src": "assets/dragon/reset.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset_bell",
+          "label": "额度重置提醒",
+          "category": "更多",
+          "src": "assets/dragon/reset_bell.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset_check",
+          "label": "检查额度",
+          "category": "更多",
+          "src": "assets/dragon/reset_check.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset_hope",
+          "label": "期待额度恢复",
+          "category": "更多",
+          "src": "assets/dragon/reset_hope.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset_maybe",
+          "label": "可能重置了",
+          "category": "更多",
+          "src": "assets/dragon/reset_maybe.webp",
+          "prop": ""
+        },
+        {
+          "id": "reset_nope",
+          "label": "还没重置",
+          "category": "更多",
+          "src": "assets/dragon/reset_nope.webp",
+          "prop": ""
+        },
+        {
+          "id": "running",
+          "label": "跑动热身",
+          "category": "日常",
+          "src": "assets/dragon/running.webp",
+          "prop": ""
+        },
+        {
+          "id": "searching",
+          "label": "查找资料",
+          "category": "工作",
+          "src": "assets/dragon/searching.webp",
+          "prop": ""
+        },
+        {
+          "id": "sleeping",
+          "label": "打个小盹",
+          "category": "日常",
+          "src": "assets/dragon/sleeping.webp",
+          "prop": ""
+        },
+        {
+          "id": "stretch",
+          "label": "伸个懒腰",
+          "category": "日常",
+          "src": "assets/dragon/stretch.webp",
+          "prop": ""
+        },
+        {
+          "id": "sulk",
+          "label": "闹点小别扭",
+          "category": "表情",
+          "src": "assets/dragon/sulk.webp",
+          "prop": ""
+        },
+        {
+          "id": "surprised",
+          "label": "吓了一小跳",
+          "category": "表情",
+          "src": "assets/dragon/surprised.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_left",
+          "label": "忙不过来·向左",
+          "category": "工作",
+          "src": "assets/dragon/swamped_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_right",
+          "label": "忙不过来·向右",
+          "category": "工作",
+          "src": "assets/dragon/swamped_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "thinking",
+          "label": "认真思考",
+          "category": "工作",
+          "src": "assets/dragon/thinking.webp",
+          "prop": ""
+        },
+        {
+          "id": "tired",
+          "label": "累累的",
+          "category": "表情",
+          "src": "assets/dragon/tired.webp",
+          "prop": ""
+        },
+        {
+          "id": "update",
+          "label": "更新提醒",
+          "category": "更多",
+          "src": "assets/dragon/update.webp",
+          "prop": ""
+        },
+        {
+          "id": "writing",
+          "label": "写写画画",
+          "category": "工作",
+          "src": "assets/dragon/writing.webp",
+          "prop": "coins"
+        },
+        {
+          "id": "yawn",
+          "label": "打个哈欠",
+          "category": "日常",
+          "src": "assets/dragon/yawn.webp",
+          "prop": ""
+        }
+      ]
+    },
+    "claude": {
+      "name": "克劳德",
+      "count": 57,
+      "actions": [
+        {
+          "id": "annoyed",
+          "label": "有点不高兴",
+          "category": "表情",
+          "src": "assets/claude/annoyed.webp",
+          "prop": ""
+        },
+        {
+          "id": "asking",
+          "label": "探头询问",
+          "category": "工作",
+          "src": "assets/claude/asking.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_left",
+          "label": "向左开工",
+          "category": "工作",
+          "src": "assets/claude/busy_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "busy_right",
+          "label": "向右开工",
+          "category": "工作",
+          "src": "assets/claude/busy_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "bye",
+          "label": "挥手告别",
+          "category": "问候",
+          "src": "assets/claude/bye.webp",
+          "prop": ""
+        },
+        {
+          "id": "clawd",
+          "label": "抱抱小螃蟹",
+          "category": "日常",
+          "src": "assets/claude/clawd.webp",
+          "prop": ""
+        },
+        {
+          "id": "coaxed",
+          "label": "被哄好啦",
+          "category": "表情",
+          "src": "assets/claude/coaxed.webp",
+          "prop": ""
+        },
+        {
+          "id": "compact",
+          "label": "整理仪容",
+          "category": "日常",
+          "src": "assets/claude/compact.webp",
+          "prop": ""
+        },
+        {
+          "id": "delegating",
+          "label": "交代工作",
+          "category": "工作",
+          "src": "assets/claude/delegating.webp",
+          "prop": ""
+        },
+        {
+          "id": "dizzy",
+          "label": "晕乎乎",
+          "category": "表情",
+          "src": "assets/claude/dizzy.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_left",
+          "label": "左侧贴边",
+          "category": "更多",
+          "src": "assets/claude/edge_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_left_peek",
+          "label": "左侧探头",
+          "category": "更多",
+          "src": "assets/claude/edge_left_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right",
+          "label": "右侧贴边",
+          "category": "更多",
+          "src": "assets/claude/edge_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "edge_right_peek",
+          "label": "右侧探头",
+          "category": "更多",
+          "src": "assets/claude/edge_right_peek.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_christmas",
+          "label": "圣诞节",
+          "category": "节日",
+          "src": "assets/claude/fest_christmas.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_dragonboat",
+          "label": "端午节",
+          "category": "节日",
+          "src": "assets/claude/fest_dragonboat.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_halloween",
+          "label": "万圣节",
+          "category": "节日",
+          "src": "assets/claude/fest_halloween.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_lantern",
+          "label": "元宵节",
+          "category": "节日",
+          "src": "assets/claude/fest_lantern.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_midautumn",
+          "label": "中秋节",
+          "category": "节日",
+          "src": "assets/claude/fest_midautumn.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_national",
+          "label": "国庆节",
+          "category": "节日",
+          "src": "assets/claude/fest_national.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_newyear",
+          "label": "新年快乐",
+          "category": "节日",
+          "src": "assets/claude/fest_newyear.webp",
+          "prop": ""
+        },
+        {
+          "id": "fest_spring",
+          "label": "春节拜年",
+          "category": "节日",
+          "src": "assets/claude/fest_spring.webp",
+          "prop": ""
+        },
+        {
+          "id": "forgiven",
+          "label": "得到原谅",
+          "category": "表情",
+          "src": "assets/claude/forgiven.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_afternoon",
+          "label": "下午好",
+          "category": "问候",
+          "src": "assets/claude/greet_afternoon.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_dawn",
+          "label": "清晨问候",
+          "category": "问候",
+          "src": "assets/claude/greet_dawn.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_evening",
+          "label": "傍晚问候",
+          "category": "问候",
+          "src": "assets/claude/greet_evening.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_morning",
+          "label": "早上好",
+          "category": "问候",
+          "src": "assets/claude/greet_morning.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_night",
+          "label": "晚安问候",
+          "category": "问候",
+          "src": "assets/claude/greet_night.webp",
+          "prop": ""
+        },
+        {
+          "id": "greet_noon",
+          "label": "中午好",
+          "category": "问候",
+          "src": "assets/claude/greet_noon.webp",
+          "prop": ""
+        },
+        {
+          "id": "happy-2",
+          "label": "开心一下",
+          "category": "表情",
+          "src": "assets/claude/happy-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "hum",
+          "label": "哼首小曲",
+          "category": "日常",
+          "src": "assets/claude/hum.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-2",
+          "label": "换个站姿",
+          "category": "日常",
+          "src": "assets/claude/idle-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-3",
+          "label": "歪头等候",
+          "category": "日常",
+          "src": "assets/claude/idle-3.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle-blink",
+          "label": "眨眨眼",
+          "category": "日常",
+          "src": "assets/claude/idle-blink.webp",
+          "prop": ""
+        },
+        {
+          "id": "idle",
+          "label": "乖乖待机",
+          "category": "日常",
+          "src": "assets/claude/idle.webp",
+          "prop": ""
+        },
+        {
+          "id": "listening",
+          "label": "乖乖听讲",
+          "category": "工作",
+          "src": "assets/claude/listening.webp",
+          "prop": ""
+        },
+        {
+          "id": "oops",
+          "label": "哎呀出错了",
+          "category": "表情",
+          "src": "assets/claude/oops.webp",
+          "prop": ""
+        },
+        {
+          "id": "pat-2",
+          "label": "摸摸头",
+          "category": "日常",
+          "src": "assets/claude/pat-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "proud",
+          "label": "小小得意",
+          "category": "表情",
+          "src": "assets/claude/proud.webp",
+          "prop": ""
+        },
+        {
+          "id": "puffed",
+          "label": "鼓起脸颊",
+          "category": "表情",
+          "src": "assets/claude/puffed.webp",
+          "prop": ""
+        },
+        {
+          "id": "reading-2",
+          "label": "读报看书",
+          "category": "日常",
+          "src": "assets/claude/reading-2.webp",
+          "prop": "paper"
+        },
+        {
+          "id": "redhot",
+          "label": "急得红温",
+          "category": "表情",
+          "src": "assets/claude/redhot.webp",
+          "prop": ""
+        },
+        {
+          "id": "running",
+          "label": "跑动热身",
+          "category": "日常",
+          "src": "assets/claude/running.webp",
+          "prop": ""
+        },
+        {
+          "id": "searching",
+          "label": "查找资料",
+          "category": "工作",
+          "src": "assets/claude/searching.webp",
+          "prop": ""
+        },
+        {
+          "id": "sleeping-2",
+          "label": "打个小盹",
+          "category": "日常",
+          "src": "assets/claude/sleeping-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "sorry",
+          "label": "小声道歉",
+          "category": "表情",
+          "src": "assets/claude/sorry.webp",
+          "prop": ""
+        },
+        {
+          "id": "stretch",
+          "label": "伸个懒腰",
+          "category": "日常",
+          "src": "assets/claude/stretch.webp",
+          "prop": ""
+        },
+        {
+          "id": "sulk",
+          "label": "闹点小别扭",
+          "category": "表情",
+          "src": "assets/claude/sulk.webp",
+          "prop": ""
+        },
+        {
+          "id": "surprised",
+          "label": "吓了一小跳",
+          "category": "表情",
+          "src": "assets/claude/surprised.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_left",
+          "label": "忙不过来·向左",
+          "category": "工作",
+          "src": "assets/claude/swamped_left.webp",
+          "prop": ""
+        },
+        {
+          "id": "swamped_right",
+          "label": "忙不过来·向右",
+          "category": "工作",
+          "src": "assets/claude/swamped_right.webp",
+          "prop": ""
+        },
+        {
+          "id": "thinking-2",
+          "label": "托腮思考",
+          "category": "工作",
+          "src": "assets/claude/thinking-2.webp",
+          "prop": ""
+        },
+        {
+          "id": "thinking",
+          "label": "认真思考",
+          "category": "工作",
+          "src": "assets/claude/thinking.webp",
+          "prop": ""
+        },
+        {
+          "id": "tired",
+          "label": "累累的",
+          "category": "表情",
+          "src": "assets/claude/tired.webp",
+          "prop": ""
+        },
+        {
+          "id": "update",
+          "label": "更新提醒",
+          "category": "更多",
+          "src": "assets/claude/update.webp",
+          "prop": ""
+        },
+        {
+          "id": "writing",
+          "label": "写写画画",
+          "category": "工作",
+          "src": "assets/claude/writing.webp",
+          "prop": ""
+        },
+        {
+          "id": "yawn",
+          "label": "打个哈欠",
+          "category": "日常",
+          "src": "assets/claude/yawn.webp",
+          "prop": ""
+        }
+      ]
+    }
+  }
+}

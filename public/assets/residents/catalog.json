@@ -1,0 +1,4509 @@
+{
+  "version": 1,
+  "sourceRepository": "https://github.com/TiantianTitan/codex-anime-pets",
+  "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+  "count": 36,
+  "rights": "Unofficial fan-made character animation. Original franchise character rights remain with respective rights holders. Not a commercial asset license. See source notices.",
+  "residents": [
+    {
+      "name": "魈",
+      "id": "xiao",
+      "zip": "genshin-impact/xiao/xiao-2d.zip",
+      "sprite": "assets/residents/xiao/spritesheet.webp",
+      "config": "assets/residents/xiao/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/xiao/xiao-2d.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "c8ca8fae218e3f0e30e0620a67921d4a15df75437e425c5556055b75cffee90a",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2361088,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "钟离",
+      "id": "zhongli",
+      "zip": "genshin-impact/zhongli/zhongli-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/zhongli/spritesheet.webp",
+      "config": "assets/residents/zhongli/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/zhongli/zhongli-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "6a551970056e0f8cbf4f4e17016c29132269dff30860db1ac8f8c4f5b904bb50",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2108234,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "八重神子",
+      "id": "yae-miko",
+      "zip": "genshin-impact/yae-miko/yae-miko-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/yae-miko/spritesheet.webp",
+      "config": "assets/residents/yae-miko/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/yae-miko/yae-miko-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "217b1bd8e8374d729538eff3d9de0acca50d12903d4050ffcb08deaf99774cab",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2760212,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "芙宁娜",
+      "id": "furina",
+      "zip": "genshin-impact/furina/furina-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/furina/spritesheet.webp",
+      "config": "assets/residents/furina/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/furina/furina-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "d407e09fa476b95c7787667c8ca21af7c936846bf5d893121b8a72c8df2ac444",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2382326,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "胡桃",
+      "id": "hu-tao",
+      "zip": "genshin-impact/hu-tao/hu-tao-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/hu-tao/spritesheet.webp",
+      "config": "assets/residents/hu-tao/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/hu-tao/hu-tao-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "2521fc0bfd42655409e8cb3416ffc264e456c5e140d1487dea6b1904fdc1094a",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2594874,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "凯亚",
+      "id": "kaeya",
+      "zip": "genshin-impact/kaeya/kaeya-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kaeya/spritesheet.webp",
+      "config": "assets/residents/kaeya/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/kaeya/kaeya-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "b68007d33e1bfa8f9bac4a5a193dfaa35a86fd01488f89ee1c27dee30f7861c8",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2245862,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "神里绫华",
+      "id": "kamisato-ayaka",
+      "zip": "genshin-impact/kamisato-ayaka/kamisato-ayaka-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kamisato-ayaka/spritesheet.webp",
+      "config": "assets/residents/kamisato-ayaka/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/kamisato-ayaka/kamisato-ayaka-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "5e1bfaa338560029a9f2ddc1d359286cd69e0c7697e6bbf27424a1beafc12fc2",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2679444,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "枫原万叶",
+      "id": "kazuha-chibi",
+      "zip": "genshin-impact/kaedehara-kazuha/kazuha-chibi-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kazuha-chibi/spritesheet.webp",
+      "config": "assets/residents/kazuha-chibi/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/kaedehara-kazuha/kazuha-chibi-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "af335eaf0c68c7498b79bde41e3966e64f5baaf0021e57bc5cb5d08927a94937",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2450764,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "甘雨",
+      "id": "ganyu",
+      "zip": "genshin-impact/ganyu/ganyu-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/ganyu/spritesheet.webp",
+      "config": "assets/residents/ganyu/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/ganyu/ganyu-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "3175b24500eea18c7839106af438bc4b5d6c7e0e2cebd6ed527725d3a085d75a",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2394486,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "达达利亚",
+      "id": "tartaglia",
+      "zip": "genshin-impact/Tartaglia/tartaglia-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/tartaglia/spritesheet.webp",
+      "config": "assets/residents/tartaglia/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/Tartaglia/tartaglia-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "d2a286ed1063d6884830f2e815671d93cf0b3958777e53fafe8e37b1df103395",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2126524,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "温迪",
+      "id": "venti",
+      "zip": "genshin-impact/Venti/venti-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/venti/spritesheet.webp",
+      "config": "assets/residents/venti/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/Venti/venti-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "6a685be4aeaef6dd178a26a57968ccf2aa5bc708172c4cfaaefc0ff0c1cf8c71",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2345070,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "雷电将军",
+      "id": "raiden-shogun",
+      "zip": "genshin-impact/raiden-shogun/raiden-shogun-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/raiden-shogun/spritesheet.webp",
+      "config": "assets/residents/raiden-shogun/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/raiden-shogun/raiden-shogun-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "7b96d5d22c193908955ccff5bec4e83a38c08082cc75406574b90bad7e8fc8bc",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2591156,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "流浪者",
+      "id": "wanderer",
+      "zip": "genshin-impact/Wanderer/wanderer-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/wanderer/spritesheet.webp",
+      "config": "assets/residents/wanderer/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/genshin-impact/Wanderer/wanderer-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "d1d0e0ef187f38002624395f06d95dba789f78aba6bae970ab143bbee7824acf",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2897758,
+      "family": "genshin-impact",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "丹恒·饮月",
+      "id": "dan-heng-imbibitor-lunae",
+      "zip": "honkai-star-rail/dan-heng-imbibitor-lunae/dan-heng-imbibitor-lunae-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/dan-heng-imbibitor-lunae/spritesheet.webp",
+      "config": "assets/residents/dan-heng-imbibitor-lunae/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/dan-heng-imbibitor-lunae/dan-heng-imbibitor-lunae-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "12ff878a2462fab5bac103e0ec3fa4ef9f311aaab2d4e5520782f3f1ca6efd72",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2597900,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "景元",
+      "id": "jing-yuan",
+      "zip": "honkai-star-rail/jing-yuan/jing-yuan-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/jing-yuan/spritesheet.webp",
+      "config": "assets/residents/jing-yuan/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/jing-yuan/jing-yuan-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "0d5ea2ea8e12f22ec27b65538601ef9aaca293a150b73bdd60d5f6164e02540e",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2405622,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "黄泉",
+      "id": "acheron",
+      "zip": "honkai-star-rail/acheron/acheron-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/acheron/spritesheet.webp",
+      "config": "assets/residents/acheron/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/acheron/acheron-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "1aa9394c518df3b7a24e9e7c1eb951c7d5da837a7873eb25b2adde4c24f51c61",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2555866,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "知更鸟",
+      "id": "robin",
+      "zip": "honkai-star-rail/robin/robin-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/robin/spritesheet.webp",
+      "config": "assets/residents/robin/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/robin/robin-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "19fd61c67991f9cc155d6a9cc2a633f4e47cc2c88a1255fa492a156e27a0c919",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2236390,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "流萤",
+      "id": "firefly",
+      "zip": "honkai-star-rail/firefly/firefly-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/firefly/spritesheet.webp",
+      "config": "assets/residents/firefly/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/firefly/firefly-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "64811169acfbf018f0e2e6829bebd7a7604cdc692c0956be02e038f6f12a8e9c",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2403424,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "刃",
+      "id": "blade",
+      "zip": "honkai-star-rail/blade/blade-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/blade/spritesheet.webp",
+      "config": "assets/residents/blade/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/blade/blade-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "c79e21b33c836c8a00f08d79c133376091095d3502a4094cd19d6670f7ffcd06",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2171032,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "阮·梅",
+      "id": "ruan-mei",
+      "zip": "honkai-star-rail/ruan-mei/ruan-mei-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/ruan-mei/spritesheet.webp",
+      "config": "assets/residents/ruan-mei/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/ruan-mei/ruan-mei-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "95ac3a7d1e03b38f0a465ee175ea443c9bb9a2d770f8fed7411548d609020135",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2244228,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "砂金",
+      "id": "aventurine",
+      "zip": "honkai-star-rail/aventurine/aventurine-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/aventurine/spritesheet.webp",
+      "config": "assets/residents/aventurine/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/aventurine/aventurine-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "f025a1a15d363026a03e45b907b7ba4d669ec25a25b6a95c59cb95a14c5e4c99",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2236178,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "星期日",
+      "id": "sunday",
+      "zip": "honkai-star-rail/sunday/sunday-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/sunday/spritesheet.webp",
+      "config": "assets/residents/sunday/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/sunday/sunday-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "19a474edf8d23b5fdd7d66038e0fe199e5afc3130512c13457c6f986b97d8869",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2329300,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "卡芙卡",
+      "id": "kafka",
+      "zip": "honkai-star-rail/Kafka/kafka-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kafka/spritesheet.webp",
+      "config": "assets/residents/kafka/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/Kafka/kafka-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "4164abcde3d6f8f1d26820d688ce2e2fe0f5715d78d34564df77377a96803887",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2050540,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "花火",
+      "id": "sparkle",
+      "zip": "honkai-star-rail/Sparkle/sparkle-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/sparkle/spritesheet.webp",
+      "config": "assets/residents/sparkle/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/Sparkle/sparkle-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "83e43a851e09a238b8829eb68bece0fc30e1c5ed81db9e71f8fc3d045c6e2fcb",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2871178,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "黑天鹅",
+      "id": "black-swan",
+      "zip": "honkai-star-rail/Black%20Swan/black-swan-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/black-swan/spritesheet.webp",
+      "config": "assets/residents/black-swan/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-star-rail/Black%20Swan/black-swan-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "47d8d7ae061ee8684251ce8991be0b4a34e6ea86b3afc5cfbe01ee9f92ab3d15",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 3070510,
+      "family": "honkai-star-rail",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "雷电芽衣",
+      "id": "raiden-mei",
+      "zip": "honkai-impact-3rd/raiden-mei/raiden-mei-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/raiden-mei/spritesheet.webp",
+      "config": "assets/residents/raiden-mei/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/raiden-mei/raiden-mei-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "308bc4d8951f2402a2783fd86911f5d206ce4b8137f2884a0ea00e07d4cc1291",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2338770,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "凯文·卡斯兰娜",
+      "id": "kevin-kaslana",
+      "zip": "honkai-impact-3rd/kevin-kaslana/kevin-kaslana-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kevin-kaslana/spritesheet.webp",
+      "config": "assets/residents/kevin-kaslana/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/kevin-kaslana/kevin-kaslana-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "6bfdbd5afe04bcdb281dda4409d8fbfa3e95459e53709b0ca6a1c5db95e22038",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 1840828,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "奥托·阿波卡利斯",
+      "id": "otto-apocalypse",
+      "zip": "honkai-impact-3rd/Otto-Apocalypse/otto-apocalypse-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/otto-apocalypse/spritesheet.webp",
+      "config": "assets/residents/otto-apocalypse/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Otto-Apocalypse/otto-apocalypse-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "a46a6b4ba7812b571f44da93cb60a5df9171928496531224b8eeca04a65b99ee",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2165888,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "琪亚娜·卡斯兰娜",
+      "id": "kiana-kaslana",
+      "zip": "honkai-impact-3rd/Kiana%20Kaslana/kiana-kaslana-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/kiana-kaslana/spritesheet.webp",
+      "config": "assets/residents/kiana-kaslana/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Kiana%20Kaslana/kiana-kaslana-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "6ba2642b618e76348eb91198d77f5e14e141373045fd59a0b81b356c488f2349",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2411960,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "符华",
+      "id": "fu-hua",
+      "zip": "honkai-impact-3rd/Fu%20Hua/fu-hua-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/fu-hua/spritesheet.webp",
+      "config": "assets/residents/fu-hua/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Fu%20Hua/fu-hua-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "53d38761751365d20dd211c21b79e887a447aeba2bf3e46db3b5a19454158a15",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 1943886,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "布洛妮娅",
+      "id": "bronya-zaychik",
+      "zip": "honkai-impact-3rd/Bronya%20Zaychik/bronya-zaychik-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/bronya-zaychik/spritesheet.webp",
+      "config": "assets/residents/bronya-zaychik/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Bronya%20Zaychik/bronya-zaychik-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "1a590385723d44dbfa2d64f01b6733df9514bc691142b8e56a81bc935612266f",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2268340,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "希儿",
+      "id": "seele-vollerei",
+      "zip": "honkai-impact-3rd/Seele%20Vollerei/seele-vollerei-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/seele-vollerei/spritesheet.webp",
+      "config": "assets/residents/seele-vollerei/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Seele%20Vollerei/seele-vollerei-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "9b4065b88077c4dba8891fda7a27c8a6bec2c05282127d120d82614d2ca6f3f0",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 1715718,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "德丽莎",
+      "id": "theresa",
+      "zip": "honkai-impact-3rd/Theresa/theresa-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/theresa/spritesheet.webp",
+      "config": "assets/residents/theresa/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/honkai-impact-3rd/Theresa/theresa-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "1481e6e8ffc8ff1b1220d0ba29e40d908d20602a774e4be8e8f98c8b6204b443",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2091032,
+      "family": "honkai-impact-3rd",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "艾莲·乔",
+      "id": "ellen-joe",
+      "zip": "zenless-zone-zero/ellen-joe/ellen-joe-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/ellen-joe/spritesheet.webp",
+      "config": "assets/residents/ellen-joe/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/zenless-zone-zero/ellen-joe/ellen-joe-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "44616e85bbca7914a57917d5b1fabbb65b1a17d664255fafc3a26a0460ca012e",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2050776,
+      "family": "zenless-zone-zero",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "星见雅",
+      "id": "miyabi",
+      "zip": "zenless-zone-zero/hoshimi-miyabi/miyabi-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/miyabi/spritesheet.webp",
+      "config": "assets/residents/miyabi/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/zenless-zone-zero/hoshimi-miyabi/miyabi-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "478c4fc240e949f4a2fbd58869200e79ff4936457cc9ff3bdf6f5310c4002b28",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 1761294,
+      "family": "zenless-zone-zero",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    },
+    {
+      "name": "妮可·德玛拉",
+      "id": "nicole-demara",
+      "zip": "zenless-zone-zero/nicole-demara/nicole-demara-2d-codex-pet-v2.zip",
+      "sprite": "assets/residents/nicole-demara/spritesheet.webp",
+      "config": "assets/residents/nicole-demara/pet.json",
+      "source": "https://github.com/TiantianTitan/codex-anime-pets/blob/0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1/zenless-zone-zero/nicole-demara/nicole-demara-2d-codex-pet-v2.zip",
+      "repository": "TiantianTitan/codex-anime-pets",
+      "commit": "0a7cb6dea9bdbcc476843bf3f07892f6b47acaa1",
+      "sha256": "e5350cf96f735933b4550ee71606f45178ffdc032bb3f0c337c620345658ba74",
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "frameWidth": 192,
+      "frameHeight": 208,
+      "bytes": 2404934,
+      "family": "zenless-zone-zero",
+      "animations": {
+        "idle": {
+          "row": 0,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "right": {
+          "row": 1,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "left": {
+          "row": 2,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wave": {
+          "row": 3,
+          "frames": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        "jump": {
+          "row": 4,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "failed": {
+          "row": 5,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "wait": {
+          "row": 6,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "work": {
+          "row": 7,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "review": {
+          "row": 8,
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "previewFrame": 0
+    }
+  ]
+}
